@@ -1,0 +1,81 @@
+div.enquete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+div.navigation {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+
+a {
+  text-decoration: none;
+  background-color: #f3f3f3;
+  padding: 12px 15px;
+  border-radius: 15px;
+  color: black;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+a:hover {
+  transition: 0.4s;
+  background-color: gray;
+  color: white;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 20%;
+}
+
+form.enquete_form label {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: left;
+}
+
+form.enquete_form label.opt {
+  font-weight: 400;
+  font-size: 0.9em;
+  display: flex;
+  justify-content: space-between;
+}
+
+label div input {
+  margin-right: 10px;
+}
+
+div.invalido {
+  text-align: center;
+}
+
+.vote {
+  background-color: #009879;
+  border: 1px solid transparent;
+  color: white;
+  align-self: center;
+  padding: 10px 12px;
+  width: fit-content;
+  border-radius: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.vote:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}

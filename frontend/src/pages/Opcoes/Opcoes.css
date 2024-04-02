@@ -1,0 +1,70 @@
+div.opcao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  font-family: sans-serif;
+  gap: 30px;
+}
+
+form.opcao_form label {
+  font-weight: bold;
+}
+
+form.opcao_form input {
+  margin-top: 5px;
+}
+
+ul > li {
+  margin-bottom: 4px;
+}
+
+.button_criar {
+  background-color: #009879;
+  color: white;
+  border: 1px solid transparent;
+  width: fit-content;
+  padding: 7px 12px;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.button_criar:hover {
+  transition: 0.4s;
+  background-color: white;
+  color: #009879;
+  border: 1px solid #009879;
+}
+
+.opcoes_list {
+  font-size: 1.4em;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid gray;
+  line-height: 1.4em;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+button.delete {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 7px;
+  margin-left: 20px;
+}
+
+button.delete:hover {
+  transition: 0.4s;
+  background-color: rgb(146, 3, 3);
+}
